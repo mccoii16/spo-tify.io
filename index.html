@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Spotify</title>
+</head>
+<body>
+ <div class="container">
+    
+<footer>
+    <div class="music-play-container">
+    <img src="https://i.scdn.co/image/ab67616d0000b27346e207de66ba06422897f769" alt="">
+    <div class="play-content">
+            <div class="play-title">One Step Closer</div>
+            <div class="play-artist">Linkin Park</div>
+     </div>
+     <p>heart</p>
+    <div class="music-player">
+        <div class="music-player-top">
+            <div class="shuffle"><i class="fa-solid fa-shuffle"></i></div>
+            <div class="previous"><i class="fa-solid fa-backward-step"></i></div>
+            <div class="play"><i class="fa-solid fa-circle-play" style="color: #f5f5f5;"></i></div>
+            <div class="next"><i class="fa-solid fa-forward-step"></i></div>
+            <div class="repeat"><i class="fa-solid fa-repeat"></i></div>
+        </div>
+        <div class="music-play-bottom">
+            <div class="begin">0:00 </div>
+            <div class="line">&nbsp;&nbsp;----------------------------------------&nbsp;&nbsp;</div>
+            <div class="time"> 5:12</div>
+        </div>
+    </div> 
+        <div class="settings">
+            <div class="lyrics"><i class="fa-solid fa-microphone-lines"></i></div>
+            <div class="lists"><i class="fa-regular fa-chart-bar"></i></div>
+            <div class="devices"><i class="fa-solid fa-mobile-screen"></i></i></div>
+            <div class="volume">--------</div>
+        </div>
+    
+</div>   
+</footer>
+
+    <div class="container-left">
+        <div class="container-top-left">
+                <div class="content-left">
+                    <div class="home">
+                        <i class="fa-solid fa-house-user" style="color: #ffffff;"></i>
+                        <p>Home</p>
+                    </div>
+                    <input type="text" class="search" placeholder="Search for Music here">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    </input>
+                
+                </div>
+        </div> 
+        
+        <div class="container-bottom-left">
+            <div class="top">
+                <div class="left">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <p>Your Library</p>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="second">
+                <button>Playlist</button>
+                <button>Artist</button>
+            </div>
+
+
+            <div class="playlist">
+                <div class="top-playlist">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    <div class="recents">Recents <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i></div>
+                </div>
+                
+                <div class="bottom-playlist">
+                    
+                    <div class="song">
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artistic-album-cover-design-template-d12ef0296af80b58363dc0deef077ecc_screen.jpg?ts=1561488440" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Liked Song</div>
+                                <div class="description"><i class="fa-solid fa-map-pin" style="color: #00ff33;"></i> Playlist • 11 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://publish.one37pm.net/wp-content/uploads/2023/01/best-rap-album-covers-Mobile-Images-ONE37pm.com_.png?resize=720%2C780" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">15 Best Rap Song</div>
+                                <div class="description">Playlist • 5 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="data:image/jpeg;base64,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" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Best Love Song Hip Hop</div>
+                                <div class="description"></i> Playlist • 20 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song" type="active">
+                        <img src="https://static-cse.canva.com/blob/1067801/1600w-1Nr6gsUndKw.jpg" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Top 10 Broken Hearted Songs</div>
+                                <div class="description"></i> Playlist • 5 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/114/posts/34296/final_image/Final-image.jpg" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Anarchy Songs</div>
+                                <div class="description"></i> Playlist • 40 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://americansongwriter.com/wp-content/uploads/2022/08/Queen-II-album-cover-820-1536x1536-1.jpg?resize=1024,1024" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Best of Queen</div>
+                                <div class="description"></i> Playlist • 100 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqW8qDLYs98rhxN9FVu_78tAtBUkvsIMNmuQ&usqp=CAU" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Love Drug Songs</div>
+                                <div class="description"></i> Playlist • 3 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artistic-album-cover-design-template-d12ef0296af80b58363dc0deef077ecc_screen.jpg?ts=1561488440" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Liked Song</div>
+                                <div class="description"><i class="fa-solid fa-map-pin" style="color: #00ff33;"></i> Playlist • 11 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://publish.one37pm.net/wp-content/uploads/2023/01/best-rap-album-covers-Mobile-Images-ONE37pm.com_.png?resize=720%2C780" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">15 Best Rap Song</div>
+                                <div class="description">Playlist • 5 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="data:image/jpeg;base64,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" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Best Love Song Hip Hop</div>
+                                <div class="description"></i> Playlist • 20 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://static-cse.canva.com/blob/1067801/1600w-1Nr6gsUndKw.jpg" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Top 10 Broken Hearted Songs</div>
+                                <div class="description"></i> Playlist • 5 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/114/posts/34296/final_image/Final-image.jpg" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Anarchy Songs</div>
+                                <div class="description"></i> Playlist • 40 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://americansongwriter.com/wp-content/uploads/2022/08/Queen-II-album-cover-820-1536x1536-1.jpg?resize=1024,1024" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Best of Queen</div>
+                                <div class="description"></i> Playlist • 100 Songs</div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqW8qDLYs98rhxN9FVu_78tAtBUkvsIMNmuQ&usqp=CAU" width="60px" height="60px" alt="">
+                        <div class="content">
+                                <div class="title">Love Drug Songs</div>
+                                <div class="description"></i> Playlist • 3 Songs</div>
+                        </div>
+                    </div>
+                   
+                
+                
+                </div>
+
+
+            </div>
+
+    
+        </div>     
+    </div>
+    
+    
+    <div class="container-right">
+        <div class="panel-fix">
+        <div class="right-container-top">
+            <div class="arrow">
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="icons-right">
+                <button1>Upgrade</button1>
+                <i class="fa-solid fa-people-group"></i>
+                <img src="https://media.licdn.com/dms/image/D5603AQEJDy4RtugMGA/profile-displayphoto-shrink_800_800/0/1670983988668?e=2147483647&v=beta&t=-OUc64W4eAkO5GEaHVDmfYqFCkVJiD6rEGpLHWokmW8" width="30px" height="30px" alt="">
+            </div>
+        </div>
+    </div>
+
+        <div class="right-container-hero">
+            <img src="https://m.media-amazon.com/images/I/61tKnpiPw3S.jpg" alt="">
+            <div class="right-of-img">
+                <div class="public-playlist">Public Playlist</div>
+                <div class="public-title">Rap</div>
+                <div class="contents">
+                    <img src="https://media.licdn.com/dms/image/D5603AQEJDy4RtugMGA/profile-displayphoto-shrink_800_800/0/1670983988668?e=2147483647&v=beta&t=-OUc64W4eAkO5GEaHVDmfYqFCkVJiD6rEGpLHWokmW8" alt="">
+                    <div class="name">Marco Antiligando</div>
+                    <div class="num-songs">• 8 songs,</div>
+                    <p>35 min 30 sec</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="top-panel">
+                <div class="top-left-panel">
+                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <i class="fa-solid fa-user-plus"></i>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="top-right-panel">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <p>Custom Order  &nbsp; <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="middle-panel">
+                <div class="top-middle-panel">
+                    <p>#</p>
+                    <p>Title</p>
+                    <p>Album</p>
+                    <p>Date Added</p>
+                    <p>time</p>
+                </div>
+            </div>
+            <div class="middle-middle-panel">
+                
+                <div class="song-list">
+                    <p>1</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Killing_AUST.jpg/220px-Killing_AUST.jpg" alt="">
+                        <div class="singer-details">
+                            <div class="song-name">Killing in The Name</div>
+                            <div class="details">
+                                <div class="type">E</div>
+                                <div class="artist">Rage Against The Machine</div>
+                            </div>
+                        </div>
+                    <div class="album">Rage Against the Machine 2</div>
+                    <div class="date">Nov, 30, 2015</div>
+                    <div class="duration">5:14</div>
+                </div>
+                <div class="song-list">
+                    <p>2</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/1/15/Eminem_Killshot.jpg" alt="">
+                        <div class="singer-details">
+                            <div class="song-name">Killshot</div>
+                            <div class="details">
+                                <div class="type">A</div>
+                                <div class="artist">Eminem</div>
+                            </div>
+                        </div>
+                    <div class="album">EmKillsGK</div>
+                    <div class="date">Nov, 30, 2017</div>
+                    <div class="duration">4:14</div>
+                </div>
+                <div class="song-list">
+                    <p>3</p>
+                    <img src="https://i0.wp.com/micdropmusic.com/wp-content/uploads/2022/06/Machine-Gun-Kelly36-1.jpg?fit=900%2C597&ssl=1" alt="">
+                        <div class="singer-details">
+                            <div class="song-name">MGK</div>
+                            <div class="details">
+                                <div class="type">F</div>
+                                <div class="artist">I only feel right</div>
+                            </div>
+                        </div>
+                    <div class="album">Hope I can Win</div>
+                    <div class="date">Nov, 30, 1995</div>
+                    <div class="duration">1:14</div>
+                </div>
+
+
+
+
+             </div>
+        
+
+        </middle-panel>
+        .
+
+    </div>
+
+
+    <footer></footer>
+
+ </div>
+
+
+
+</body>
+</html>
